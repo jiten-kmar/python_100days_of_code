@@ -1,3 +1,7 @@
 import random
 
-print(random.randint(0,1))
+value=random.randint(0,1)
+if value==0:
+    print("its tail")
+else:
+    print("its head")
